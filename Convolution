@@ -1,0 +1,21 @@
+🧠 What is Convolution?
+Convolution is a mathematical operation used in image processing and deep learning — especially in Convolutional Neural Networks (CNNs).
+
+In simple terms, convolution is like scanning an image with a small filter (called a kernel) to detect specific features such as:
+
+Edges,
+
+Lines,
+
+Textures,
+
+Patterns, etc.
+
+🔍 How Does It Work?
+You have an image (e.g., a 5x5 matrix of pixel values).
+
+You have a small filter (usually 3x3), also filled with numbers.
+
+The filter slides over the image, position by position.
+
+At each position, it multiplies corresponding elements and adds them up — that result becomes a pixel in a new output image.
